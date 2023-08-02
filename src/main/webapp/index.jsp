@@ -1,20 +1,6 @@
-<html>
-<head>
-<title>Login Form</title>
-</head>
-<body>
-<h3> Login here </h3>
-<form action="user_login" method="post">
-<table style="width: 20%">
-                 <tr>
-                 <td>UserName</td>
-                                    <td><input type="text" name="username" /></td>
-                         </tr>
-                                    <tr>
-                                    <td>Password</td>
-                                    <td><input type="password" name="password" /></td>
-                           </tr>
-                 </table>
-                 <input type="submit" value="Login" /></form>
-</body>
-</html>
+<form action="register.jsp">  
+<input type="text" name="uname" value="Name..." onclick="this.value=''"/><br/>  
+<input type="text" name="uemail"  value="Email ID..." onclick="this.value=''"/><br/>  
+<input type="password" name="upass"  value="Password..." onclick="this.value=''"/><br/>  
+<input type="submit" value="register"/>  
+</form>  
