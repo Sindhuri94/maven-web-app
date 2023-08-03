@@ -1,5 +1,5 @@
 <html>
   <body>
-  <h1>Logged in Successful.continous integration</h1>
+  <h1>Logged in Successful. integration</h1>
   </body>
   </html>
